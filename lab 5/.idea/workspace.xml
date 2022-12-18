@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac2d5d82-55cf-4285-8fa8-6a46e5633403" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab 4/scripts/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 4/scripts/deploy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Ballot.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/Ballot.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/VotingToken.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/VotingToken.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deployBallot.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deployBallot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/lib.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Solidity Contract" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J379LKcxfhnrFTs9hgvNLSeJR2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexanderandreev/Desktop/blockchain/blockchain/lab 5&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Mocha.Test.voting should not “freeze” tokens &#10; but, voting should handle a situation, when voter transfers his tokens to another address and votes another time..but, voting should handle a situation, when voter transfers his tokens to another address and votes another time.">
+    <configuration name="Test" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/Test.js</test-file>
+      <test-names>
+        <name value="Test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.Any owner of voting tokens can create a proposal, time-to-live(TTL) of proposal is 3 days, after that time proposal becomes “discarded” if not enough votes are gathered.Check that proposal discarded after 3 days" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/Test.js</test-file>
+      <test-names>
+        <name value="Test" />
+        <name value="Any owner of voting tokens can create a proposal, time-to-live(TTL) of proposal is 3 days, after that time proposal becomes “discarded” if not enough votes are gathered" />
+        <name value="Check that proposal discarded after 3 days" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.Votes can be “for” or ”against” the proposal. Proposal becomes “accepted” or “declined” completed if &gt; 50% of votes for the same decision (“for” or “against”) is gathered.Proposal becomes “accepted” completed if &gt; 50% of votes" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/Test.js</test-file>
+      <test-names>
+        <name value="Test" />
+        <name value="Votes can be “for” or ”against” the proposal. Proposal becomes “accepted” or “declined” completed if &gt; 50% of votes for the same decision (“for” or “against”) is gathered" />
+        <name value="Proposal becomes “accepted” completed if &gt; 50% of votes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.voting should not “freeze” tokens &#10; but, voting should handle a situation, when voter transfers his tokens to another address and votes another time..but, voting should handle a situation, when voter transfers his tokens to another address and votes another time." type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/Test.js</test-file>
+      <test-names>
+        <name value="Test" />
+        <name value="voting should not “freeze” tokens &#10; but, voting should handle a situation, when voter transfers his tokens to another address and votes another time." />
+        <name value="but, voting should handle a situation, when voter transfers his tokens to another address and votes another time." />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Test.voting should not “freeze” tokens &#10; but, voting should handle a situation, when voter transfers his tokens to another address and votes another time..but, voting should handle a situation, when voter transfers his tokens to another address and votes another time." />
+        <item itemvalue="Mocha.Test.Votes can be “for” or ”against” the proposal. Proposal becomes “accepted” or “declined” completed if &gt; 50% of votes for the same decision (“for” or “against”) is gathered.Proposal becomes “accepted” completed if &gt; 50% of votes" />
+        <item itemvalue="Mocha.Test" />
+        <item itemvalue="Mocha.Test.Any owner of voting tokens can create a proposal, time-to-live(TTL) of proposal is 3 days, after that time proposal becomes “discarded” if not enough votes are gathered.Check that proposal discarded after 3 days" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac2d5d82-55cf-4285-8fa8-6a46e5633403" name="Changes" comment="" />
+      <created>1671294762791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671294762791</updated>
+      <workItem from="1671294766484" duration="40000" />
+      <workItem from="1671294905016" duration="48348000" />
+      <workItem from="1671394021494" duration="289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/Test.js</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

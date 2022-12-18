@@ -5,15 +5,15 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const {ethers} = require("hardhat");
-const { deployBallot } = require("./lib.js");
 const { deployVotingToken } = require("./lib.js");
 
 (async () => {
-    const [owner] = await ethers.getSigners();
-    deployBallot(deployVotingToken(owner))
-        .then(() => process.exit(0))
-        .catch((error) => {
-            console.error(error);
-            process.exit(1);
-        });
+  const [owner] = await ethers.getSigners();
+  deployVotingToken(owner)
+      .then(() => process.exit(0))
+      .catch((error) => {
+        console.error(error);
+        process.exit(1);
+      });
 })();
+
