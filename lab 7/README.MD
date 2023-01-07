@@ -31,10 +31,15 @@
 Ссылки на полезные материалы используемые при реализации:
 
 [AES-128. Детали и реализация на python](https://habr.com/ru/post/212235/)
+
 [Как устроен AES](https://habr.com/ru/post/112733/)
+
 [Кратко с реализацией о AES 128 ECB](Кратко с реализацией о AES 128 ECB)
+
 [Официальная документация](https://csrc.nist.gov/csrc/media/publications/fips/197/final/documents/fips-197.pdf)
+
 [AES (стандарт шифрования)](https://ru.wikipedia.org/wiki/AES_(%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82_%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F))
+
 [Алгоритмы шифрования. Специальный справочник. Автор: Панасенко С.П](https://denis.elib.ru/Documents/Books/PanasenkoSP_Crypto_algoritms_2008.pdf)
 
 NOTE: В папке `test` расположен простой тест на алгоритм.
