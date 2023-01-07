@@ -34,7 +34,7 @@
 
 [Как устроен AES](https://habr.com/ru/post/112733/)
 
-[Кратко с реализацией о AES 128 ECB](Кратко с реализацией о AES 128 ECB)
+[Кратко с реализацией о AES 128 ECB](https://habr.com/ru/post/451830/)
 
 [Официальная документация](https://csrc.nist.gov/csrc/media/publications/fips/197/final/documents/fips-197.pdf)
 
